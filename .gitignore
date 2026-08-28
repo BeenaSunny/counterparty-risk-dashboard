@@ -1,0 +1,18 @@
+# Power BI
+*.pbix
+!.gitkeep
+
+# Personal — never commit Power BI Desktop cache
+*.pbi/
+*.tmp
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Python venv (if anyone tries to extend the data-gen scripts)
+.venv/
+__pycache__/
