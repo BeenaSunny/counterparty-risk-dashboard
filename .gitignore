@@ -1,7 +1,3 @@
-# Power BI
-*.pbix
-!.gitkeep
-
 # Personal — never commit Power BI Desktop cache
 *.pbi/
 *.tmp

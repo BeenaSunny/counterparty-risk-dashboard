@@ -18,7 +18,7 @@ Three pages, each targeting a different audience:
 | **Risk Heatmap**       | Risk analysts      | Inherent vs. residual risk matrix, by vendor and by risk category  |
 | **Risk Flags & Watch List** | Vendor managers | Vendors with open risk flags, by severity, with days-to-resolution and remediation owner |
 
-## What this demonstrates (for hiring managers)
+## What this demonstrates
 
 | Skill                                      | Where it lives in this dashboard                               |
 |--------------------------------------------|-----------------------------------------------------------------|
@@ -55,18 +55,6 @@ Synthetic CSVs  →  Power Query (ETL)  →  Star schema
 
 Star schema  →  DAX measures  →  Report pages
 ```
-
-## Recruiter-friendly talking points
-
-If a hiring manager asks "tell me about this project":
-
-1. **"What problem does it solve?"** — TPRM teams need a single place to see vendor risk posture, track open issues, and report up to the board. This dashboard is the single place.
-
-2. **"What was hard?"** — Designing a composite risk score that's defensible to auditors. Showed the formula to a fake GRC committee and got feedback on weighting; iterated twice before finalizing.
-
-3. **"What would you do differently in production?"** — Real data sources: SAP Ariba for contracts, ServiceNow GRC for assessments, external feeds (D&B, SecurityScorecard) for cyber ratings. Power BI Premium + dataset scheduled refresh; row-level security for vendor managers who should only see their assigned vendors.
-
-4. **"How does this tie to your Fed background?"** — Same controls framework (NIST 800-53), same risk-scoring math, same executive-reporting cadence. The data model pattern is the same one I used to surface IR incidents in the Fed SOC.
 
 ## Related
 
